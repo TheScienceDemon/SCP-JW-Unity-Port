@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -247,10 +247,6 @@ PrefabInstance:
     - target: {fileID: 436830176342631763, guid: 76f2a6642b210aa47b74bcaa38aad407, type: 3}
       propertyPath: m_Name
       value: room4HczIntersection1
-      objectReference: {fileID: 0}
-    - target: {fileID: 436830176342631763, guid: 76f2a6642b210aa47b74bcaa38aad407, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 955957292545785833, guid: 76f2a6642b210aa47b74bcaa38aad407, type: 3}
       propertyPath: m_RootOrder
