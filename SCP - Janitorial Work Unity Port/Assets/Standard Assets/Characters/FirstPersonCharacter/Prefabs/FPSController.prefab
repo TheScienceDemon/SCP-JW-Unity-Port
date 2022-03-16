@@ -535,6 +535,38 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2011130384530786269, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172798655035557824, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470438251935087897, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801925034503963279, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932228453520939204, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584464558120306088, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097661679713822381, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741069972256735251, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
+      propertyPath: m_CastShadows
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e06f29bf3822bad47aa92d1203bb9fd7, type: 3}
 --- !u!4 &7224069693573332060 stripped

@@ -1,0 +1,98 @@
+# Exported from Fuse 1.3.0
+
+newmtl Eyewear
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Eyewear_diffuse.png
+map_Ks JanitorMartinez_Eyewear_specular.png
+bump JanitorMartinez_Eyewear_normal.png
+map_Ns JanitorMartinez_Eyewear_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Bottom_diffuse.png
+map_Ks JanitorMartinez_Bottom_specular.png
+bump JanitorMartinez_Bottom_normal.png
+map_Ns JanitorMartinez_Bottom_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Body_diffuse.png
+map_Ks JanitorMartinez_Body_specular.png
+bump JanitorMartinez_Body_normal.png
+map_Ns JanitorMartinez_Body_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Hair_diffuse.png
+map_Ks JanitorMartinez_Hair_specular.png
+bump JanitorMartinez_Hair_normal.png
+map_Ns JanitorMartinez_Hair_gloss.png
+
+newmtl Moustache
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Moustache_diffuse.png
+map_Ks JanitorMartinez_Moustache_specular.png
+bump JanitorMartinez_Moustache_normal.png
+map_Ns JanitorMartinez_Moustache_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Shoes_diffuse.png
+map_Ks JanitorMartinez_Shoes_specular.png
+bump JanitorMartinez_Shoes_normal.png
+map_Ns JanitorMartinez_Shoes_gloss.png
+
+newmtl Beard
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Beard_diffuse.png
+map_Ks JanitorMartinez_Beard_specular.png
+bump JanitorMartinez_Beard_normal.png
+map_Ns JanitorMartinez_Beard_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd JanitorMartinez_Top_diffuse.png
+map_Ks JanitorMartinez_Top_specular.png
+bump JanitorMartinez_Top_normal.png
+map_Ns JanitorMartinez_Top_gloss.png
+
