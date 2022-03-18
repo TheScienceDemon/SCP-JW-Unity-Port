@@ -18,12 +18,12 @@ MonoBehaviour:
   m_GUID: 24fc66f12dd08994dbc3441ac3411696
   m_SerializeEntries:
   - m_GUID: cdc21dc6cc89b204fa728a0e4bd5c5cc
-    m_Address: German (de)
+    m_Address: Deutsch - German
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
   - m_GUID: f3ca850a03216754aaabfb0cf8dffc1e
-    m_Address: English (en)
+    m_Address: English
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale

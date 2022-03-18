@@ -9,16 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bb1838fe8befb0429646b938e757ff3, type: 3}
-  m_Name: German (de)
+  m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
+  m_Name: Localization-String-Tables-Deutsch - German_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
-  m_Identifier:
-    m_Code: de
-  m_Metadata:
-    m_Items: []
-  m_LocaleName: German (de)
-  m_CustomFormatCultureCode: 
-  m_UseCustomFormatter: 0
-  m_SortOrder: 10000
-  references:
-    version: 1
+  m_Group: {fileID: 11400000, guid: 50ffa0fccc1b5484d8a71491281d54e0, type: 2}
+  m_StaticContent: 0

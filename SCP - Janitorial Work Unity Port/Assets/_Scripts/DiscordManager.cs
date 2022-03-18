@@ -1,37 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DiscordManager : MonoBehaviour
 {
     public static DiscordManager Singleton { get; private set; }
-    public Discord.Discord discord;
 
-    /*
-    void Awake()
-    {
-        if (Singleton == null)
-        {
+    Discord.Discord discord;
+
+    void Awake() {
+        if (Singleton == null) {
             Singleton = this;
             DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
+        } else
             Destroy(gameObject);
-        }
     }
-    */
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        discord = new Discord.Discord(884884423043067984, (System.UInt64)Discord.CreateFlags.Default);
+    void Start() {
+#if !UNITY_EDITOR
+        discord = new Discord.Discord(884884423043067984, (ulong) Discord.CreateFlags.Default);
+
         var activityManager = discord.GetActivityManager();
-        Debug.Log(activityManager);
-        var activity = new Discord.Activity
-        {
-            Details = "pog battling",
-            State = "Test",
+
+        var activity = new Discord.Activity {
+            Details = "Amog Us",
+            State = "Finally testing again",
             Assets =
             {
                 LargeImage = "logo",
@@ -40,8 +31,7 @@ public class DiscordManager : MonoBehaviour
                 SmallText = "",
             },
         };
-        activityManager.UpdateActivity(activity, (res) =>
-        {
+        activityManager.UpdateActivity(activity, (res) => {
             if (res == Discord.Result.Ok)
             {
                 Debug.Log("Discord launched successfully");
@@ -51,11 +41,10 @@ public class DiscordManager : MonoBehaviour
                 Debug.LogError("Discord errored launching! : " + res);
             }
         });
+#endif
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        discord.RunCallbacks();
-    }
+#if !UNITY_EDITOR
+    void Update() => discord.RunCallbacks();
+#endif
 }
